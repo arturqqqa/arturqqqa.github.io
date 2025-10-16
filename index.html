@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+    	<title>Power And Fast</title>
+    	<link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/slider.css">
+        <link rel="shortcut icon" href="img/icon.png" type="image/png">
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="sidebar">
+                <h1>PAF</h1>
+                <h2>Всё для вашего компьютера!</h2>
+                <ul>
+                    <li><a href="pages/videocard.html">Видеокарты</a></li>
+                    <li><a href="pages/processor.html">Процессоры</a></li>
+                    <li><a href="pages/motherboard.html">Материнские платы</a></li>
+                    <li><a href="pages/power_supply.html">Блоки питания</a></li>
+                    <li><a href="pages/fan.html">Воздушное охлаждение</a></li>
+                    <li><a href="pages/HDD.html">Жесткие диски</a></li>
+                    <li><a href="pages/body.html">Корпусы</a></li>
+                </ul>
+                <h3>Copyright © Powerful And Fast 2019 Все права защищены</h3> 
+            </div>
+            <div class="main_content">
+                <div class="header">
+                    <div class="header_section">
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="pages/about.html">О нас</a></li>
+                        </ul>
+                    </div>
+                    <form name="opform" class="opfrm">
+                        <select>
+                            <option disabled selected>Выберите город</option>
+                            <option>Белебей</option>
+                            <option>Ишимбай</option>
+                            <option>Мелеуз</option>
+                            <option>Салават</option>
+                            <option>Стерлитамак</option>
+                            <option>Туймазы</option>
+                            <option>Уфа</option>
+                        </select>
+                        <input type="text" placeholder="Поиск на сайте...">
+                        <input type="image" src="img/find.png">
+                    </form>
+                    <div class="header_section">
+                        <ul>
+                            <li><a href="pages/login.html">Войти</a></li>
+                            <li><a href="pages/register.html">Зарегистрироваться</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info">
+                    <div style="text-align: center; font-size: 200%; font-weight: bold;">Выгодные предложения!</div>
+                    <div class="all">
+                        <input checked type="radio" name="respond" id="desktop">
+                        <article id="slider">
+                            <input checked type="radio" name="slider" id="switch1">
+                            <input type="radio" name="slider" id="switch2">
+                            <input type="radio" name="slider" id="switch3">
+                            <div id="slides">
+                                <div id="overflow">
+                                    <div class="image">
+                                        <article><img src="img/slider/1.jpg"></article>
+                                        <article><img src="img/slider/2.jpg"></article>
+                                        <article><img src="img/slider/3.jpg"></article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="controls">
+                                <label for="switch1"></label>
+                                <label for="switch2"></label>
+                                <label for="switch3"></label>
+                            </div>
+                            <div id="active">
+                                <label for="switch1"></label>
+                                <label for="switch2"></label>
+                                <label for="switch3"></label>
+                            </div>
+                        </article>
+                    </div><br>
+                    <form name=rate>
+                       <center><h1>Оцените наш магазин</h1>
+                       <input type="button" value=Хорошо! onclick="alert('Спасибо за положительный отзыв!')">
+                       <input type="button" value=Плохо! onclick="alert('Что ж,  будем стараться!')"></center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
